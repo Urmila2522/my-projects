@@ -1,0 +1,148 @@
+
+#body {
+    background-image:url("unsplash.jpg");
+    /* background-color: black; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container{
+    margin: auto;
+    margin-top: 25vh;
+    /* border: 1px solid red; */
+    background: 0.3;
+    width: 500px;
+   background:  rgb(110, 109, 109);
+   border-radius: 60px;
+
+   
+}
+
+.logo {
+    padding-top:8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+
+}
+
+.logo h2 {
+    display: inline-block;
+    font-size:40px ;
+   margin-bottom: 10px;
+}
+
+.logo h6 {
+    display: inline-block;
+    font-size:15px;
+    letter-spacing: 5px;
+    word-spacing: 3px;
+    color: lightgreen;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0px 10px;
+    margin: auto 3px;
+    font-family: 'Sans serif';
+    font-variant: calc();
+    transition: 1s ease;
+}
+
+.menu{
+    margin-top: 10px;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    transition: 0.4s ease;
+}
+
+.menu a i{
+    margin: 6px 10px;
+ 
+}
+/* .menu a:first-child {
+    background-color: gray;
+    border-radius: 50px; 
+
+}*/
+.menu a:hover {
+   /* background-color: ; */
+    border-radius: 50px;
+    background-color: lightgreen;
+    transform:inherit;
+}
+/* for icon wight and size */
+.icon {
+    margin-top: 30px;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    padding-bottom:5%;
+}
+.icon i {
+    color: white;
+    font-size: 1rem;
+    margin: 0 10px;
+     padding: 8px; 
+    border-radius: 50%;
+    box-shadow: 1px 2px black;
+    transition: 0.4s ease;
+    border: 1px solid white;
+}
+/* icon colour 
+
+.icon #a1 {
+    background-color: #E1306C;
+}
+
+.icon #a2 {
+    background-color: #25D366;
+}
+
+.icon #a3 {
+    background-color: #1DA1F2;
+}
+
+.icon #a4 {
+    background-color: #142a99;
+}
+
+.icon #a5 {
+    background-color: black;
+    border: 1px solid white;
+}
+*/
+
+/* for icon hover ------------------------------------------------------------------------------*/
+.icon a i:hover {
+    transform: translatey(-5px);
+}
+
+.cpr {
+    /*  */
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: medium;
+    color:rgb(107, 251, 107);
+    cursor:default;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .logo h2 {
+        font-size: 114px;
+    }
+  }
+  @media (max-width: 400px) {
+    .logo h2 {
+        font-size: 14px;
+    }
+  }

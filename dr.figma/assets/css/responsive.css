@@ -1,0 +1,261 @@
+/* Responsive CSS */
+
+
+/* Responsive CSS for Laptop Screen  */
+
+@media only screen and (max-width:1024px) {
+	.subs-div {
+		gap: 4rem;
+	}
+}
+
+@media only screen and (max-width:992px) {
+
+	.quantity {
+		display: inline-block;
+		position: absolute;
+		top: -15px;
+		right: -2px
+	}
+
+	.quantity span {
+		display: block;
+		width: 16px !important;
+		height: 16px !important;
+		font-size: 12px;
+		position: absolute;
+
+	}
+
+	.quantity span:before {
+		content: "";
+		width: 16px;
+		height: 16px;
+		background-color: orange;
+		border-radius: 50%;
+		top: -2px;
+		right: 4px;
+		z-index: -1;
+		position: absolute;
+	}
+
+	.logo-mobile {
+		width: 100px !important;
+	}
+}
+
+/* Responsive CSS for Tablet Screen  */
+
+@media only screen and (max-width:768px) {
+	h1.main-part1 {
+		font-size: 28px;
+	}
+
+	h6.main-part2 {
+		font-size: 12px;
+	}
+
+	h2.text-center.head1 {
+		font-size: 28px;
+	}
+
+	p.text-center.para-text {
+		font-size: 15px;
+	}
+
+	h6.text-center.mt-5 {
+		font-size: 18px;
+	}
+
+	h2.text-center.head-accor.text-uppercase.fw-bold {
+		font-size: 40px;
+	}
+
+	.subs-div {
+		gap: 0;
+	}
+
+	.head-accor {
+		font-size: 40px;
+	}
+
+	.social-icons {
+		font-size: 13px;
+	}
+
+	h6.social-title-text.text-white {
+		font-size: 12px;
+	}
+
+	.coupen-footer {
+		font-size: 13px;
+	}
+
+	.footer-list {
+		padding-top: 4rem;
+		padding-left: 3rem;
+	}
+
+	a.ul-list-item {
+		font-size: 10px;
+		font-weight: 500;
+	}
+
+	span.footer-menu-title {
+		font-size: 12px;
+	}
+
+	.bottom-footer {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		justify-content: center;
+		align-items: center;
+		font-size: 12px;
+	}
+
+	button.btn2 {
+		font-size: 10px;
+		width: 100px;
+		height: 26px;
+	}
+
+
+}
+
+
+/* Responsive CSS for Mobile S. Screen  */
+@media only screen and (max-width:480px) {
+	.navbar {
+		padding: 10px 20px 10px 20px;
+	}
+
+	h1.main-part1 {
+		font-size: 19px;
+	}
+
+	.h6,
+	h6 {
+		font-size: 8px;
+		letter-spacing: 1p;
+	}
+
+	a#button-1 {
+		width: 8rem;
+	}
+
+	a#button-2 {
+		width: 8rem;
+	}
+
+	h2.text-center.head1 {
+		font-size: 23px;
+	}
+
+	p.text-center.para-text {
+		font-size: 15px;
+	}
+
+	h2.text-center.head-accor.text-uppercase.fw-bold {
+		font-size: 25px;
+	}
+
+	h6.text-center.mt-5 {
+		font-size: 14px;
+	}
+
+	h5.card-subtitle.mb-2.text-black {
+		font-size: 13px;
+	}
+
+	p.card-text {
+		font-size: 9px;
+		font-weight: 500;
+	}
+
+	a.btn.btn-card {
+		font-size: 10px;
+	}
+
+	p.icons-para {
+		font-size: 10px;
+		padding-bottom: 15px;
+
+	}
+
+	p.text-center.para-text {
+		font-size: 12px;
+	}
+
+	.subs-div {
+		gap: 0rem;
+		font-size: 14px;
+		padding: 25px;
+
+	}
+
+	h5.subs-heading.text-uppercase {
+		font-size: 19px;
+	}
+
+	input.subs-btn.text-center {
+		margin-top: 5%;
+		width: 100%;
+	}
+
+	.text-center {
+		font-size: 12px;
+	}
+
+	.bottom-footer {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		justify-content: center;
+		align-items: center;
+		font-size: 9px;
+	}
+
+	p {
+		padding: 0px 28px;
+	}
+
+	input.email-field {
+		width: 100%;
+	}
+
+	.sign-images {
+		height: 65px;
+		width: 65px;
+	}
+	h2.text-center.head1 {
+		letter-spacing: 2px;
+	}
+	h2.text-center.head-accor.text-uppercase {
+		letter-spacing: 3px;
+		font-size: 28px;
+	}
+	.card-caption-img {
+		padding-top: 1rem;
+	}
+	
+.line h2 {
+	font-size: 20px;
+}
+p.surrounding-para.text-center {
+    font-size: 11px;
+    padding-top: 18px;
+}
+
+}
+
+
+/* Responsive CSS for Mobile S. Screen  */
+@media only screen and (max-width:320px) {
+	.mycard1 {
+		height: auto;
+	}
+	.mycard2 {
+		height: auto;
+	}
+}

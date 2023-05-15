@@ -1,0 +1,23 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+video.video-one {
+    width: 50%;
+    margin-left: 25%;
+}
+.audio-one{
+    width: 50%;
+    margin-left: 25%;
+}
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    color: whitesmoke;
+    font-family: cursive;
+    font-weight: 900;
+    font-size: 50px;
+}

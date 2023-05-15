@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>JQuery Form</title>
+      <link rel="stylesheet" href="Assets\Css\style.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+   </head>
+      <body>
+         <div class="container mt-5">
+            <h1 class="text-center">Multiple Input Form</h1>
+            <div class="row mt-5 mb-5">
+               <div class="col">
+                  <form>
+                     <div class="form-group fieldGroup mt-3">
+                        <div>
+                           <input type="text" name="name" id="your-name" class="form-name" placeholder="Enter your Name" />
+                           <h5 class="namecheck"> </h5>
+                           <input type="email" name="mail-id" id="your-mailid" class="form-mailid" placeholder="Enter your Email-id" />
+                           <h5 class="emailcheck"> </h5>
+                           <input type="tel" name="phone" id="contact-no" class="form-contact-no" placeholder="Enter your Phone No." />
+                           <h5 class="phonecheck"> </h5>
+                           <input type="text" name="Address" id="your-address" class="form-address" placeholder="Enter your Address" />
+                           <h5 class="addresscheck"> </h5>
+                        </div>
+                     </div>
+                     <button id="btn-ton" name="submit" class="btn btn-primary mt-3" >sbumit</button>
+                     <input type="button" value="+Add" class="btn btn-success addMore float-end mt-3">
+                  </form>
+                  <div class="form-group fieldGroupCopy" style="display: none;">
+                     <div class=" mt-5">
+                        <input type="text" name="name"  class="form-name" placeholder="Enter your Name" />
+                        <h5 class="namecheck"> </h5>
+                        <input type="email" name="mail-id" class="form-mailid" placeholder="Enter your Email-id" />
+                        <h5 class="emailcheck"> </h5>
+                        <input type="tel" name="phone" class="form-contact-no" placeholder="Enter your Phone No." />
+                        <h5 class="phonecheck"> </h5>
+                        <input type="text" name="Address" class="form-address" placeholder="Enter your Address" />
+                        <h5 class="addresscheck"> </h5>
+                        <div class="input-group-addon">
+                           <input type="button" name="Delete" class="btn btn-danger remove" value="Delete" />
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+   <script src="Assets\js\jquery-3.6.4.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+   <script src="Assets\js\jquery.js"></script>
+   </body>
+</html>

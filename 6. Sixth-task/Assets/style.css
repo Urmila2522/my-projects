@@ -1,0 +1,62 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.first-div {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: black;
+}
+ul.items {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+li.list-items {
+    list-style: none;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 900;
+    color: bisque;
+    padding-top: 30px;
+}
+img.cat-logo {
+    width: 150px;
+    margin-left: 20%;
+}
+.bg-img{
+    background-image: url('../Assets/images/background.webp');
+    background-size: cover;
+	height: 700px;
+}
+h1.love-cat {
+    color: antiquewhite;
+    padding-left: 90px;
+    padding-top: 150px;
+    font-family: cursive;
+    font-size: 50px;
+}
+p.cat-thought {
+    color: lavenderblush;
+    padding-left: 90px;
+    padding-top: 20px;
+    font-size: 25px;
+    font-family: monospace;
+    word-spacing: -5px;
+}
+p.cat-para {
+    color: cornsilk;
+    padding-left: 90px;
+    font-size: 20px;
+    font-family: system-ui;
+    line-height: 35px;
+    padding-top: 20px;
+}
+button.cat-btn {
+    margin-top: 20px;
+    margin-left: 90px;
+    background-color: beige;
+    border: 2px beige;
+    border-radius: 10px;
+}

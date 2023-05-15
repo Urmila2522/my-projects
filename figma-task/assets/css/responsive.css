@@ -1,0 +1,12 @@
+@media only screen and (max-width: 320px) {
+  .form-section {
+    margin-top: 7%;
+    background-image: url(../images/form-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+}

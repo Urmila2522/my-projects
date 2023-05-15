@@ -1,0 +1,13 @@
+.box {
+    border: 2px solid;
+    height: 300px;
+    width: 300px;
+    margin-left: 40%;
+    margin-top: 10%;
+    background-color: palevioletred;
+    border-radius: 30px;
+    transition: all 0.5s ease-in-out;
+}
+.box:hover{
+    transform: skew(20deg);
+}

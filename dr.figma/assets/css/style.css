@@ -1,0 +1,627 @@
+* {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+	/* background-color: red; */
+}
+
+/* Header part css strat */
+.btn1 {
+	background-color: #CC6328;
+	width: 140px;
+	height: 47.99px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	margin: 5px;
+	border: none;
+}
+
+.btn2 {
+	background-color: #CC6328;
+	width: 140px;
+	height: 47.99px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	margin: 5px;
+	border: none;
+	margin-top: 2%;
+}
+
+.nav-button {
+	background-color: #CC6328;
+	color: white;
+	font-weight: 900;
+	font-size: 16px;
+	border-radius: 5px;
+	width: 101%;
+}
+
+.logo {
+	margin-left: 10px;
+}
+
+.navbar-nav li:hover>ul.dropdown-menu {
+	display: block;
+}
+
+.dropdown-submenu {
+	position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+	top: 0;
+	left: 100%;
+	margin-top: -6px;
+
+}
+
+.dropdown-menu a:hover {
+	background-color: #CC6328;
+	;
+}
+
+/* rotate caret on hover */
+.dropdown-menu>li>a:hover:after {
+	text-decoration: underline;
+	transform: rotate(-90deg);
+
+}
+
+
+/* rotate caret on hover */
+.dropdown-menu>li>a:hover:after {
+	text-decoration: underline;
+	transform: rotate(-90deg);
+
+}
+
+button.navbar-toggler {
+	border: none;
+}
+
+/* Header part css End */
+/*  Main part css start */
+.bg-banner {
+	width: 100%;
+	height: 75%;
+	background: url('../images/Homepage Hero.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+h1.main-part1 {
+    font-family: revert;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+
+/*  Main part css End */
+/*  card with image css start*/
+.img-card {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 3rem;
+}
+
+.options {
+	color: #911A1D;
+	font-weight: bold;
+}
+
+.card-subtitle {
+	color: #1A110C;
+	font-family: fantasy;
+    letter-spacing: 3px;
+}
+
+.btn-card {
+	font-weight: bold;
+	color: white;
+	background-color: #CC6328;
+}
+
+.btn-card:hover {
+	font-weight: bold;
+	color: white;
+	background-color: #CC6328 !important;
+}
+
+.mycard1 {
+	/* background-image: url('../assets/images/routine.png'); */
+	background-image: url('../images/routine.png');
+
+	background-size: cover;
+	height: 450px;
+	max-width: 350px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+}
+
+.mycard-body {
+	background: #FFFFFF;
+	border-radius: 5px;
+}
+
+.mycardope {
+	opacity: 0.8;
+}
+
+.mycard2 {
+	background-image: url('../images/get-start.png');
+	background-size: cover;
+	height: 450px;
+	max-width: 350px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+	border-radius: 5px;
+}
+p.card-para2.card-text {
+    padding-bottom: 20px;
+}
+
+a#button-1 {
+	width: 14rem;
+}
+
+a#button-2 {
+	width: 14rem;
+}
+
+/*  card with image css End*/
+/*   Card caption css start*/
+#bgimg {
+	background-color: #FAF6F1;
+}
+h5.card-hadding {
+    font-family: fantasy;
+    letter-spacing: 1px;
+    padding-top: 10px;
+}
+p.icons-para {
+    font-size: 14px;
+    color: #5A3714;
+    font-weight: 500;
+}
+
+.line {
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid #DDC1A5;
+	text-align: center
+}
+
+.line h2 {
+	font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    background-color: #FAF6F1;
+    font-family: fantasy;
+    letter-spacing: 1px;
+}
+p.surrounding-para.text-center {
+	padding-top: 10px;
+    color: rgba(90, 55, 20, 1);
+    font-size: 14px;
+    font-weight: 500;
+}
+.card-caption-img {
+    padding-top: 3rem;
+}
+.logo-leg-pad.text-center {
+    padding-top: 55px;
+}
+/*   Card caption css End*/
+/* Card section css strat */
+.card-flex {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-top: 25px;
+	gap: 2rem;
+}
+
+.logotext {
+
+	letter-spacing: 2px;
+	color: #2A1717;
+}
+
+.head1 {
+	color: #1A110C;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 120%;
+    font-family: fantasy;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.para-text {
+	color: #5A3714;
+	font-weight: bold;
+}
+
+.para-card {
+	color: #5A3714;
+	font-weight: bold;
+
+}
+
+.btn1 {
+	background-color: #CC6328;
+	width: 230px;
+	height: 39px;
+}
+
+.btn1:hover {
+	background-color: #CC6328;
+	color: white;
+	width: 230px;
+	height: 39px;
+}
+
+.card1:hover {
+	box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+/* Card section css End */
+/* Card section small screen css start */
+.card-sm {
+	margin: 10px;
+}
+.card-title {
+    margin-bottom: 0.75rem;
+    font-family: fantasy;
+    letter-spacing: 2px;
+}
+
+.card-sm:hover {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-p-3card {
+	padding-left: 10px;
+	padding-top: 15px;
+	font-size: 13px;
+}
+
+.card-button2 {
+	border-radius: 2rem;
+	padding: 3px;
+	width: 89%;
+	background-color: #CC6328;
+	color: white;
+	font-weight: bold;
+	margin-top: 7px;
+	font-size: 15px;
+}
+
+
+p {
+	margin-top: 0;
+	margin-bottom: 0rem !important;
+}
+
+img.img1 {
+	height: 150px;
+	width: 140px;
+}
+h4.card-title.text-uppercase.card-title-1 {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+p.card-content {
+	padding-left: 10px;
+	font-size: 9px;
+	color: brown;
+	font-weight: 500;
+}
+
+/* Card section small screen css end*/
+/*  Accordian Section css Start */
+
+#main {
+	margin: 16px 0;
+
+}
+
+#main #faq .card {
+	margin-bottom: 30px;
+	border: 0;
+}
+
+#main #faq .card .card-header .btn-header-link {
+	display: block;
+	text-align: left;
+	color: #222;
+	padding: 6px;
+	white-space: normal;
+}
+.head-accor {
+    font-size: 47px;
+    font-family: fantasy;
+    letter-spacing: 7px;
+}
+
+.card-head {
+	border-bottom-color: #BCA887;
+}
+
+.anchor-text {
+	color: #cc6328 !important;
+	font-family: Adrianna;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 18px;
+	letter-spacing: 0.25px;
+	text-align: center;
+	border: none;
+}
+
+.anchor-text:focus {
+	color: #cc6328 !important;
+	font-family: Adrianna;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 18px;
+	letter-spacing: 0.25px;
+	text-align: center;
+	outline: 0 !important;
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+.anchor2-text {
+	font-family: Adrianna;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 18px;
+	letter-spacing: 0.25px;
+	text-align: left;
+	color: #1A110C;
+	border: none;
+}
+
+.anchor2-text:focus {
+	font-family: Adrianna;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 18px;
+	letter-spacing: 0.25px;
+	text-align: left;
+	color: #1A110C;
+	outline: 0 !important;
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+
+}
+
+.accor-body {
+	font-family: Adrianna;
+	background-color: #FAF6F1;
+
+	color: #5A3714;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0.25px;
+	text-align: left;
+
+}
+
+#main #faq .card .card-header .btn-header-link:after {
+	content: "\f107";
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+	float: right;
+}
+
+/*  Accordian Section css End */
+/* Subscription box CSS Start */
+.subs-div {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 5%;
+	background-image: url('../images/form-bg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	gap: 10rem;
+	padding-bottom: 15px;
+}
+
+.email-field {
+	padding: 5px 95px 5px 34px;
+	border-radius: 5px;
+	border-color: white;
+	margin-top: 4%;
+	margin-right: 10px;
+}
+
+.subs-btn {
+	padding-right: 100px;
+	text-align: center;
+	background-color: #cc6328;
+	color: #fff;
+	border-radius: 3px;
+	border-color: #cc6328;
+	padding: 3px 35px 5px 35px;
+	font-weight: bold;
+}
+
+.subs-heading {
+	color: #1A110C;
+	font-weight: 900;
+	font-size: 15px;
+	padding-top: 25px;
+}
+
+/* Subscription box CSS End */
+/* Footer css strat */
+.footer-img {
+	background-image: url('../images/footer-background.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 25px;
+	position: relative;
+	bottom: 5px;
+}
+
+.footer-list {
+	padding-top: 4rem;
+	padding-left: 7rem;
+}
+
+.ul-list-item {
+	color: white;
+	font-size: 13px;
+	font-family: unset;
+	text-decoration: none;
+}
+
+.ul-list-item:hover {
+	color: white;
+	font-size: 13px;
+	font-family: unset;
+	text-decoration: none;
+}
+
+.footer-menu-title {
+	color: rgba(188, 168, 135, 1);
+	font-family: unset;
+	font-weight: 100;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: 220px;
+}
+
+/* Footer css End */
+/* Footer small screen css start */
+.navbar-nav li:hover>ul.dropdown-menu {
+	display: block;
+
+}
+
+.dropdown-submenu {
+	position: relative;
+
+}
+
+.dropdown-submenu>.dropdown-menu {
+	top: 0;
+	left: 100%;
+	margin-top: -6px;
+
+
+}
+
+.dropdown-menuss a:hover {
+	background-color: #1A110C;
+
+}
+
+/* rotate caret on hover */
+.dropdown-menu>li>a:hover:after {
+	text-decoration: none;
+	transform: rotate(-90deg);
+
+
+}
+
+.dropdown-menuss {
+	position: absolute;
+	transform: translate3d(0px, -164px, 0px);
+	top: 0px;
+	left: 0px;
+	will-change: transform;
+	background-color: #1A110C;
+
+}
+
+.ul-list-item-sm {
+	color: white;
+	text-decoration: none;
+
+}
+
+.ul-list-item-sm:hover {
+	color: white;
+	text-decoration: none;
+}
+
+li.nav-item.dropdown {
+	list-style-type: none;
+}
+
+.footer-list2 {
+	padding-top: 2rem !important;
+	padding-left: 0rem !important;
+}
+
+.nav-title {
+	font-family: unset;
+	color: #BCA887;
+	font-weight: 900;
+}
+
+.nav-title:focus {
+	font-family: unset;
+	color: #BCA887;
+	font-weight: 900;
+}
+
+.logo-footer {
+	text-align: center;
+}
+
+h6.sm-text.text-white {
+	font-size: 18px;
+}
+
+.sm-flex-prop {
+	display: flex;
+	gap: 5px;
+	justify-content: center;
+}
+
+.coupen-footer {
+	text-align: center;
+}
+
+/* Footer small screen css End */
+/* Bottom Footer css Start */
+.bottom-footer {
+	background-image: url('../images/bottom-footer-img.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	gap: 4rem;
+	font-size: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	position: relative;
+	bottom: 14px;
+}
+
+.para-bottom {
+	color: rgba(188, 168, 135, 1);
+	;
+}
+
+/* Bottom Footer css End */
